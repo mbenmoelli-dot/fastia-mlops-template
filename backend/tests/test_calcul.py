@@ -1,4 +1,4 @@
-from modules.calcul import calcul_carre
+from backend.modules.calcul import calcul_carre
 
 def test_calcul_carre():
     assert calcul_carre(2) == 4

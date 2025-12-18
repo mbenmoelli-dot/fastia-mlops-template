@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from loguru import logger
 
-from modules.calcul import calcul_carre
+from backend.modules.calcul import calcul_carre
 
 app = FastAPI(title="FastIA API")
 
